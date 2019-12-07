@@ -3,18 +3,75 @@
 layout: col-sidebar
 title: OWASP seclists
 tags: example-tag
-level: 4
+level: 0
 type: documentation
 
+auto-migrated: 1
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+This is an example of a Project or Chapter Page.
+# OWASP SecLists
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+<div style="width:100%;height:160px;border:0,margin:0;overflow: hidden;">
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+![OWASP_Project_Header.jpg](OWASP_Project_Header.jpg
+"OWASP_Project_Header.jpg")
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+</div>
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+## About
 
+SecLists is the security tester's companion. It's a collection of
+multiple types of lists used during security assessments, collected in
+one place. List types include usernames, passwords, URLs, sensitive data
+patterns, fuzzing payloads, web shells, and many more.
+
+[SecLists GitHub Repository](https://github.com/danielmiessler/SecLists)
+
+## Licensing
+
+This project is licensed under the MIT license.
+
+## Quick Download
+
+[Download
+SecLists](https://github.com/danielmiessler/SecLists/archive/master.zip)
+
+## Change Log
+
+  - [SecLists
+    (Releases)](https://github.com/danielmiessler/SecLists/releases)
+  - [SecLists
+    (Commits)](https://github.com/danielmiessler/SecLists/commits)
+
+## Code Repo
+
+  - [SecLists](https://github.com/danielmiessler/SecLists)
+
+## Email List/Feedback/Log issues
+
+Questions? Problem? Please ask on the [GitHub Issue
+page](https://github.com/danielmiessler/SecLists/issues)
+
+## Feature Requests/Development
+
+  - Have an idea of something to include? Please create a new requests
+    (as enhancement) here:
+    <https://github.com/danielmiessler/SecLists/issues>
+  - ...Better yet, open up a new pull request here:
+    <https://github.com/danielmiessler/SecLists/pulls> (Note: We highly
+    encourage you to include the source)
+
+## Project Leaders
+
+Daniel Miessler ([@DanielMiessler](https://twitter.com/danielmiessler))
+and Jason Haddix ([@Jhaddix](https://twitter.com/Jhaddix))
+
+# Project About
+
+__NOTOC__ <headertabs></headertabs>
+
+[Category:OWASP Project](Category:OWASP_Project "wikilink")
+[Category:OWASP_Builders](Category:OWASP_Builders "wikilink")
+[Category:OWASP_Breakers](Category:OWASP_Breakers "wikilink")
+[Category:OWASP_Document](Category:OWASP_Document "wikilink")

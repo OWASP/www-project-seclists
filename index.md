@@ -1,77 +1,54 @@
 ---
 
 layout: col-sidebar
-title: OWASP seclists
+title: OWASP Seclists
 tags: example-tag
 level: 0
 type: documentation
 
 auto-migrated: 1
+auto-migrated: 1
+
 ---
 
-This is an example of a Project or Chapter Page.
-# OWASP SecLists
 
-<div style="width:100%;height:160px;border:0,margin:0;overflow: hidden;">
+<!-- Standard Chapter Page Template
+This is an example of a Project or Chapter page.
+Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
 
-![OWASP_Project_Header.jpg](OWASP_Project_Header.jpg
-"OWASP_Project_Header.jpg")
+{front matter for this file}
 
-</div>
+```
+- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+- region: This is the region you are in according to our data
+```
 
-## About
+{copy for this file (index.md)}
+Replace the text above the commented area with your information in the format below:
+```
+## Welcome
+Include some information here about your chapter
 
-SecLists is the security tester's companion. It's a collection of
-multiple types of lists used during security assessments, collected in
-one place. List types include usernames, passwords, URLs, sensitive data
-patterns, fuzzing payloads, web shells, and many more.
+## Participation
+The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
 
-[SecLists GitHub Repository](https://github.com/danielmiessler/SecLists)
+Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
 
-## Licensing
+Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
 
-This project is licensed under the MIT license.
+## Local News
+- Meeting Location
+- Everyone is welcome to join us at our chapter meetings.
 
-## Quick Download
+```
+{info.md}
 
-[Download
-SecLists](https://github.com/danielmiessler/SecLists/archive/master.zip)
+This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
 
-## Change Log
+{leaders.md}
 
-  - [SecLists
-    (Releases)](https://github.com/danielmiessler/SecLists/releases)
-  - [SecLists
-    (Commits)](https://github.com/danielmiessler/SecLists/commits)
+Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
 
-## Code Repo
-
-  - [SecLists](https://github.com/danielmiessler/SecLists)
-
-## Email List/Feedback/Log issues
-
-Questions? Problem? Please ask on the [GitHub Issue
-page](https://github.com/danielmiessler/SecLists/issues)
-
-## Feature Requests/Development
-
-  - Have an idea of something to include? Please create a new requests
-    (as enhancement) here:
-    <https://github.com/danielmiessler/SecLists/issues>
-  - ...Better yet, open up a new pull request here:
-    <https://github.com/danielmiessler/SecLists/pulls> (Note: We highly
-    encourage you to include the source)
-
-## Project Leaders
-
-Daniel Miessler ([@DanielMiessler](https://twitter.com/danielmiessler))
-and Jason Haddix ([@Jhaddix](https://twitter.com/Jhaddix))
-
-# Project About
-
-__NOTOC__ <headertabs></headertabs>
-
-[Category:OWASP Project](Category:OWASP_Project "wikilink")
-[Category:OWASP_Builders](Category:OWASP_Builders "wikilink")
-[Category:OWASP_Breakers](Category:OWASP_Breakers "wikilink")
-[Category:OWASP_Document](Category:OWASP_Document "wikilink")
+-->
